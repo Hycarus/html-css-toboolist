@@ -64,12 +64,14 @@ nav, div, header{
 .circle{
     border: 1px solid;
     border-radius: 50%;
-    padding: 7px;
+    padding: 10px;
+
 }
 .rounded-box{
     border: 1px solid;
     border-radius: 40%;
-    padding: 15px;
+    padding: 10px;
+    font-size: 0.5em;
 }
 .button{
     border: 1px solid;
@@ -78,13 +80,29 @@ nav, div, header{
 /* resize */
 main{
     width: 70%;
-    margin:0 auto ;
+    margin:0 auto;
 }
 nav{
-    margin-top: 20px;
-    margin-bottom: 2px;
+    margin-top: 40px;
+    margin-bottom: 5px;
     padding: 30px;
+}
+strong{
+    font-size:1.5em;
 }
 .padding{
     padding: 30px;
+}
+/* utility */
+ul{
+    list-style: none;
+    padding: 10px;
+    padding-left: 50px;
+}
+li{
+    padding: 20px;
+}
+body{
+    font-size: 24px;
+    font-family: 'PT Serif', serif;
 }
