@@ -10,7 +10,12 @@ colori
 #eb645d circle with cross
 #dcdfe2 button section
 */
-
+/* reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 /* palette di colori */
 .lightblue{
     background-color: #45abea;
@@ -33,6 +38,7 @@ colori
 }
 .red{
     color: #eb645d;
+    border-color: #eb645d;
 }
 .grey{
     border-color: #dcdfe2;
@@ -43,4 +49,42 @@ colori
 }
 .lightgrey{
     background-color: #f6f8f9;
+}
+.check-green{
+    color: #64c0a9;
+    border-color: #64c0a9;
+}
+body{
+    background-color: #f6f8f9;
+}
+nav, div, header{
+    background-color: white;
+}
+/* creazione box */
+.circle{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 7px;
+}
+.rounded-box{
+    border: 1px solid;
+    border-radius: 40%;
+    padding: 15px;
+}
+.button{
+    border: 1px solid;
+    border-radius: 10%;
+}
+/* resize */
+main{
+    width: 70%;
+    margin:0 auto ;
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding: 30px;
+}
+.padding{
+    padding: 30px;
 }
