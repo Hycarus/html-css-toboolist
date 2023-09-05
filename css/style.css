@@ -1,0 +1,46 @@
+/*
+colori
+#f6f8f9 sfondo body
+#45abea editorial
+#9c72e4 q1 goals
+#64c0a9 recruiting
+#f29e33 mobile
+#d863a1 website
+#b0c926 sales
+#eb645d circle with cross
+#dcdfe2 button section
+*/
+
+/* palette di colori */
+.lightblue{
+    background-color: #45abea;
+}
+.violet{
+    background-color: #9c72e4;
+}
+.orange{
+    background-color: #f29e33;
+}
+.lightgreen{
+    background-color: #64c0a9;
+    color: #64c0a9;
+}
+.green{
+    background-color: #b0c926;
+}
+.pink{
+    background-color: #d863a1;
+}
+.red{
+    color: #eb645d;
+}
+.grey{
+    border-color: #dcdfe2;
+    color: #dcdfe2;
+}
+.white{
+    color: white;
+}
+.lightgrey{
+    background-color: #f6f8f9;
+}
