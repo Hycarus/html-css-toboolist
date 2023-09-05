@@ -62,10 +62,13 @@ nav, div, header{
 }
 /* creazione box */
 .circle{
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 30px;
     padding: 10px;
-
+    width: 50px;
+    height: 50px;
+    inline-size: 50px;
+    text-align: center;
 }
 .rounded-box{
     border: 1px solid;
@@ -124,4 +127,12 @@ body{
 #logo{
     vertical-align: middle;
     width: 5%;
+    min-width: 90px;
+}
+footer{
+    text-align: right;
+    margin: 20px;
+}
+span{
+    display: inline-block;
 }
